@@ -47,7 +47,7 @@ calc.connect();
 ### Education:
 - Medical Pediatric University in Saint-P. 2007-2016
 - GloAcademy course "Web Start 12.0" 2018
-![sertificate](/img/diplom.png "sertificate")
+![sertificate](https://github.com/AnnaSonn/rsschool-cv/blob/gh-pages/img/diplom.png "sertificate")
 - RS School "Pre-school" 2022 (in progress)
 
 ---
