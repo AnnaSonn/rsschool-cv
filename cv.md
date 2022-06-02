@@ -20,6 +20,22 @@ ___
 - JavaScript (Basic)
 - Git
 ___
+### Code example:
+```
+class Calc {
+  constructor(){}
+
+  handleDivision = () => {
+    this.action = 'division';
+    this.num1 = Number(this.score.value);
+    console.log(this.num1);
+    this.score.value = '';
+  }
+}
+const calc = new Calc();
+calc.connect();
+```
+___
 ### Education:
 - Medical Pediatric University in Saint-P. 2007-2016
 - GloAcademy course "Web Start 12.0" 2018
