@@ -23,6 +23,7 @@ I have a good learning skill. I am responsible, reliable and punctual worker.
 - CSS/SASS
 - JavaScript (Basic)
 - Git
+
 ---
 
 ### Code example:
@@ -40,7 +41,9 @@ class Calc {
 const calc = new Calc();
 calc.connect();
 ```
+
 ---
+
 ### Education:
 - Medical Pediatric University in Saint-P. 2007-2016
 - GloAcademy course "Web Start 12.0" 2018
