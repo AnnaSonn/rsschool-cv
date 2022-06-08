@@ -184,6 +184,7 @@ header{
   margin-bottom: 20px;
 }
 .section-text{
+  padding-right: 20px;
   font-style: italic;
   font-size: 1.2rem;
   line-height: 1.7rem;
@@ -323,6 +324,7 @@ footer{
     margin: 0 60px;
   }
   .section-text{
+    padding: 0;
     margin: 30px 50px;
   }
 }
