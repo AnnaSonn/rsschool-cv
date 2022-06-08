@@ -50,14 +50,12 @@ h4{
 }
 h3{
   font-size: 1.8rem;
-  margin-bottom: 20px;
   font-weight: bold;
 }
 body{
   font-family: 'Lato', sans-serif;
   background-color: #fff;
   margin: 0;
-  overflow: hidden;
 }
 .container{
   position: relative;
@@ -67,16 +65,18 @@ body{
   overflow: hidden;
 }
 .content{
-  margin-left: 450px;
+  margin-left: 400px;
+  padding-top: 40px;
   color: #2a1f1a;
 }
 .sidebar{
   position: absolute;
+  box-sizing: content-box;
   z-index: 50;
   top: 0;
   left: 30px;
   width: 320px;
-  min-height: 100vh;
+  height: 100%;
   background: #6e9b9b;
   color: #fff;
 }
@@ -102,6 +102,23 @@ body{
 }
 .icons img{
   margin-right: 10px;
+}
+.languages{
+  width: 100%;
+  padding-left: 30px;
+  margin-top: 50px;
+}
+.languages-item{
+  margin-bottom: 10px;
+}
+.languages-list{
+  font-weight: bold;
+  display: block;
+  float: left;
+  width: 80px;
+}
+.languages-lvl{
+  float: right;
 }
 header{
   text-align: right;
@@ -136,7 +153,7 @@ header{
   height: 300px;
 }
 .main-name{
-  margin-top: 70px;
+  margin-top: 40px;
   font-weight: 600;
   font-size: 4rem;
 }
@@ -155,4 +172,75 @@ header{
 .main-foto img{
   width: 100%;
   height: 100%;
+}
+.arrow{
+  width: 22px;
+  height: 22px;
+  margin-right: 10px;
+}
+.section-title{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-bottom: 20px;
+}
+.section-text{
+  font-style: italic;
+  font-size: 1.2rem;
+  line-height: 1.7rem;
+}
+.code-example{
+  background-color: rgba(110, 155, 155, 0.1);;
+}
+.skill{
+  display: block;
+  width: 150px;
+  float: left;
+  margin-right: 30px;
+}
+.skill-level__item{
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  background-color: #6e9b9b;
+}
+.skill-level__item-gray{
+  border: 2px #000;
+  background-color: gray;
+}
+.education-block{
+  margin-bottom: 30px;
+}
+.education-year{
+  display: block;
+  padding: 5px 10px;
+  height: 30px;
+  background-color: #6e9b9b;
+  border-radius: 5px;
+  color: #fff;
+}
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100px;
+  text-align: center;
+  background-color: #e7c9bb;
+}
+.footer-item{
+  color: #fff;
+  font-size: 1.5rem;
+
+}
+.footer-link{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+.rs{
+  height: 60px;
 }
