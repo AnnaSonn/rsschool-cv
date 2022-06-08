@@ -364,6 +364,9 @@ footer{
   .nav-item:last-child{
     margin-right: 0;
   }
+  .code-example{
+    overflow-x: scroll;
+  }
   .footer-item{
     font-size: 1rem;
   }
