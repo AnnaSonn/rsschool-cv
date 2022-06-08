@@ -148,12 +148,11 @@ header{
 }
 .main{
   position: relative;
-  padding: 10px;
   background-color: #e7c9bb;
   height: 300px;
 }
 .main-name{
-  margin-top: 40px;
+  margin-top: 30px;
   font-weight: 600;
   font-size: 4rem;
 }
@@ -224,10 +223,14 @@ header{
   padding-bottom: 40px;
 
 }
+.contacts-languages-small{
+  display: none;
+}
 footer{
   display: flex;
   align-items: center;
   justify-content: space-around;
+  width: 100vw;
   height: 100px;
   text-align: center;
   background-color: #e7c9bb;
@@ -235,7 +238,6 @@ footer{
 .footer-item{
   color: #fff;
   font-size: 1.5rem;
-
 }
 .footer-link{
   display: flex;
@@ -247,4 +249,128 @@ footer{
 }
 .rs{
   height: 60px;
+}
+
+/* адаптация */
+@media (max-width: 1200px){
+  .container{
+    width: 100vw;
+  }
+}
+@media (max-width: 929px){
+  .sidebar{
+    display: none;
+  }
+  .contacts-languages__small{
+    display: block;
+    background-color: #6e9b9b;
+    height: 100%;
+  }
+  .small-title{
+    text-align: center;
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  .small-text{
+    text-align: center;
+    color: #fff;
+  }
+  .contacts-small{
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .small-contacts__item{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  .small-contacts__item a{
+    color:#fff;
+    text-decoration: none;
+  }
+  .languages-small{
+    padding-bottom: 30px;
+  }
+  .languages-small__item{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  .content{
+    margin: 0;
+    width: 100vw;
+  }
+  .main-foto{
+    top: 5px;
+  }
+  .main-foto img{
+    width: 290px;
+    height: 290px;
+  }
+  .main{
+    text-align: right;
+  }
+  .main-name{
+    margin-right: 40px;
+    font-size: 2.5rem;
+  }
+  .main-position{
+    margin-right: 40px;
+    font-size: 2rem;
+  }
+  .section-title{
+    margin: 0 60px;
+  }
+  .section-text{
+    margin: 30px 50px;
+  }
+}
+@media (max-width: 770px){
+  header{
+    text-align: center;
+  }
+  .main{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .main-foto{
+    position:relative;
+    left: 0;
+    width: 100vw;
+    text-align: center;
+  }
+  .main-name{
+    text-align: center;
+    margin-right: 0;
+  }
+  .main-position{
+    text-align: center;
+    margin-right: 0;
+    padding-bottom: 40px;
+  }
+}
+@media (max-width: 570px){
+  header{
+    height: 50px;
+  }
+  .nav-item{
+    font-size: 1rem;
+    margin-right: 10px;
+  }
+  .nav-item:last-child{
+    margin-right: 0;
+  }
+  .footer-item{
+    font-size: 1rem;
+  }
+  .footer-link{
+    padding-top: 0;
+  }
+  .rs{
+    height: 40px;
+  }
 }
